@@ -62,6 +62,7 @@ WHERE supplier_id = 5;
 **Question 2**
 ---
 Write a SQL query to Retrieve the department name and location concatenated with a comma.
+
 ![WhatsApp Image 2025-04-30 at 16 54 29_bf2fa6a6](https://github.com/user-attachments/assets/328b7ccd-31d9-4623-a9d1-7d49c85e7f49)
 
 ```sql
@@ -75,6 +76,7 @@ FROM dept;
 **Question 3**
 ---
 Write a SQL query to find the exact date that is 100 days after each employee's hire date.
+
 ![WhatsApp Image 2025-04-30 at 16 57 01_8e76dc27](https://github.com/user-attachments/assets/02ee4a98-f413-476d-abba-40777107b491)
 
 ```sql
@@ -89,6 +91,7 @@ FROM emp;
 **Question 4**
 ---
 Write a SQL query to calculate the number of days between the hiredate and a specified date ('2024-12-31') for each employee using the JULIANDAY function from the emp table.
+
 ![WhatsApp Image 2025-04-30 at 16 58 34_615527a0](https://github.com/user-attachments/assets/9823743b-55fc-46e3-ac45-cdf07d0eefbb)
 
 ```sql
@@ -122,6 +125,7 @@ ORDER BY discounted_price ASC;
 **Question 6**
 ---
 Write a SQL query to round the decimal column to 3 decimal places from the Calculations table.
+
 ![WhatsApp Image 2025-04-30 at 17 03 50_95745ed2](https://github.com/user-attachments/assets/dca89c6a-ef02-4ecf-837c-c81ea6273de5)
 
 ```sql
@@ -136,7 +140,8 @@ FROM Calculations;
 
 **Question 7**
 ---
-Write a SQL query to categorize decimal as 'High', 'Medium', or 'Low' based on whether it is greater than 100, between 50 and 100, or less than 50 in the Calculations table
+Write a SQL query to categorize decimal as 'High', 'Medium', or 'Low' based on whether it is greater than 100, between 50 and 100, or less than 50 in the Calculations table.
+
 ![WhatsApp Image 2025-04-30 at 17 04 57_d888c830](https://github.com/user-attachments/assets/0d3c428b-6bfb-4cc4-9ffa-874ecef99fa8)
 
 ```sql
@@ -175,6 +180,7 @@ WHERE admission_date = discharge_date ;
 **Question 9**
 ---
 Show the categoryName and description from the categories table sorted by categoryName.
+
 ![WhatsApp Image 2025-04-30 at 17 08 31_7fd9f42b](https://github.com/user-attachments/assets/aa72a0c3-1184-4e18-9afe-67dc1e413b02)
 
 ```sql
@@ -187,10 +193,10 @@ ORDER BY categoryName ASC;
 
 ![WhatsApp Image 2025-04-30 at 17 09 13_6a09cbb0](https://github.com/user-attachments/assets/34ff532d-0fdc-46cd-b535-6b64bbb10bc4)
 
-
 **Question 10**
 ---
 Write a SQL query to Delete customers from 'customer' table where 'GRADE' is not equal to 3.
+
 ```sql
 DELETE FROM Customer
 WHERE grade <> 3;
@@ -198,8 +204,7 @@ WHERE grade <> 3;
 
 **Output:**
 
-![WhatsApp Image 2025-04-30 at 17 10 05_d5cbf349](https://github.com/user-attachments/assets/34152a0c-1257-40dc-898a-59b955c83f64)
-
+![WhatsApp Image 2025-04-30 at 17 12 44_01ed126b](https://github.com/user-attachments/assets/1c182e0f-0fd7-4294-b9fd-986b5d58e51d)
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
