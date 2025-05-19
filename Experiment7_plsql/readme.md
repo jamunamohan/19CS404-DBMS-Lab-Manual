@@ -33,9 +33,25 @@ END;
 - Declare two numeric variables and initialize them.
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
+- PL/SQL QUERY
+  ~~~
+  DECLARE
+   a NUMBER := 80;
+   b NUMBER := 50;
+  BEGIN
+   IF a > b THEN
+      DBMS_OUTPUT.PUT_LINE('Greater number is: ' || a);
+   ELSE
+      DBMS_OUTPUT.PUT_LINE('Greater number is: ' || b);
+   END IF;
+  END;
+  ~~~
 
 **Expected Output:**  
 Greater number is: 80
+**Output:**
+![WhatsApp Image 2025-05-19 at 12 46 40_32088d69](https://github.com/user-attachments/assets/f6552cd6-2ee7-4b7d-ad51-7c70642a4f47)
+
 
 ---
 
@@ -46,6 +62,18 @@ Greater number is: 80
 - Initialize a `sum` variable to 0.
 - Use a `WHILE` loop to iterate from 1 to `n`, adding each number to the sum.
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
+  ~~~DECLARE
+   n     INTEGER := 10; 
+   i     INTEGER := 1;   
+   sum   INTEGER := 0;  
+BEGIN
+   WHILE i <= n LOOP
+      sum := sum + i;
+      i := i + 1;
+   END LOOP;
+
+   DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || sum);
+END;
 
 **Expected Output:**  
 Sum of first 10 natural numbers is: 55
