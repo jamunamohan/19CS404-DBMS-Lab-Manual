@@ -50,7 +50,9 @@ END;
 
 **Expected Output:**  
 Greater number is: 80
+
 **Output:**
+
 ![WhatsApp Image 2025-05-19 at 12 46 40_32088d69](https://github.com/user-attachments/assets/f6552cd6-2ee7-4b7d-ad51-7c70642a4f47)
 
 
@@ -80,6 +82,11 @@ Greater number is: 80
 **Expected Output:**  
 Sum of first 10 natural numbers is: 55
 
+Output:
+
+![image](https://github.com/user-attachments/assets/47b4ed0c-59e1-48f3-a656-a038be366190)
+
+
 ---
 
 ## 3. Write a PL/SQL program to generate Fibonacci series
@@ -93,7 +100,9 @@ Sum of first 10 natural numbers is: 55
 **Expected Output:**  
 n = 7  
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
+
 Output:
+
 ![image](https://github.com/user-attachments/assets/5813cc56-8796-4e9b-9c2b-e28289d0906a)
 
 ---
@@ -135,7 +144,9 @@ END;
 **Expected Output:**  
 n = 1535  
 Reversed number is 5351
+
 Output:
+
 ![image](https://github.com/user-attachments/assets/9224dbda-f6e7-41a0-82ea-668317c7d742)
 
 ---
@@ -165,7 +176,9 @@ Output:
 **Expected Output:**  
 a = 10, b = 9, c = 15  
 Largest of three number is 15
+
 Output:
+
 ![image](https://github.com/user-attachments/assets/e9ffee9d-82aa-4449-b721-8f7a2ca28b11)
 
 
